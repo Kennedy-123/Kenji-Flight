@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ContainerLinks a {
+    @apply hover:text-blue-800
+}
