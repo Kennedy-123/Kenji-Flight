@@ -5,10 +5,10 @@ import React from 'react'
 
 function Footer() {
   return (
-        <Box className="bg-gray-400 grid lg:grid-cols-4 md:grid-cols-2 md:gap-y-10 xs:gap-y-10 justify-center ContainerLinks pt-28">
+        <Box className="bg-gray-400 grid lg:grid-cols-4 md:grid-cols-2 md:gap-y-10 xs:gap-y-10 justify-center ContainerLinks lg:pl-9 sm:pl-9 pt-28">
               <Box sx={{display: 'flex', flexDirection: 'column', gap: 2, width: 220}}>
                 <Typography variant='h5'>About Kenji Flight</Typography>
-                <Box><Typography variant='subtitle1'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</Typography></Box>
+                <Box><Typography variant='subtitle1'>At Kenji Flight, we believe in making travel easy, affordable, and accessible for everyone. Whether you're planning your next adventure or booking a last-minute getaway, we provide the best flight deals, personalized recommendations, and seamless booking experiences.</Typography></Box>
               </Box>
               <Box sx={{display: 'flex', flexDirection: 'column', gap: 2, textAlign: 'justify'}}>
                 <Typography variant='h5'>Pages</Typography>

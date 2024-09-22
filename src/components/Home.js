@@ -67,7 +67,7 @@ export default function Home() {
           <Typography variant="h3" align='center' sx={{ fontFamily: 'open-sans', fontSize: { xs: 23, md: 30 } }}>Explore every destination</Typography>
           <Box align='center' sx={{marginTop: '12px'}}>
             <Button variant="contained" className='p-4 rounded-xl xs:w-60 xs:text-xs'>
-              <Link>Search Flights Everywhere</Link>
+              <Link to="/Flight#section1">Search Flights Everywhere</Link>
             </Button>
           </Box>
         </Box>
