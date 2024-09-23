@@ -1,0 +1,4 @@
+redirects:
+  - source: /<*>  # This matches all routes
+    destination: /  # Redirect all routes to index.html
+    status: 200
