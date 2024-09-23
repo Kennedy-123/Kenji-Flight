@@ -59,7 +59,7 @@ function SearchForm() {
         <Container className='max-w-full'>
           <Formik 
           className="bg-yellow-500"
-          initialValues={{From: '', To: 'NYC', DepartureDate: '', Adults: 1, Children: 0}} 
+          initialValues={{From: 'CHI', To: 'NYC', DepartureDate: '', Adults: 1, Children: 0}} 
           validationSchema={searchSchema} 
           onSubmit={(values) => (mutate(values))}
           validateOnBlur={false}
@@ -68,7 +68,7 @@ function SearchForm() {
             <Form className=' max-w-full grid lg:grid-cols-6 md:grid md:grid-cols-2 xs:flex-col'>
               <Box className="mr-5">
                 <label htmlFor='From' className='block font-bold'>From:</label>
-                <Field className='bg-white p-5' name="From" as="select" id='From'>
+                <Field className='bg-white p-5 ' name="From" as="select" id='From'>
                   {IataCodes.map((code, i) => (
                     <option value={code.values} key={i}>{code.name}</option>
                   ))}

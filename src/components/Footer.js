@@ -12,21 +12,21 @@ function Footer() {
               </Box>
               <Box sx={{display: 'flex', flexDirection: 'column', gap: 2, textAlign: 'justify'}}>
                 <Typography variant='h5'>Pages</Typography>
-                <Box><Link to={'/'}>Home</Link></Box>
+                <Box><Link to={'#'}>Home</Link></Box>
                 <Box><Link to={'#'}>Services</Link></Box>
-                <Box><Link to={'/about'}>About</Link></Box>
+                <Box><Link to={'#'}>About</Link></Box>
               </Box>
               <Box sx={{display: 'flex', flexDirection: 'column', gap: 2, textAlign: 'justify'}}>
                 <Typography variant='h5'>Resources</Typography>
-                <Box><Link to={'/'}>Home</Link></Box>
+                <Box><Link to={'#'}>Home</Link></Box>
                 <Box><Link to={'#'}>Services</Link></Box>
-                <Box><Link to={'/about'}>About</Link></Box>
+                <Box><Link to={'#'}>About</Link></Box>
               </Box>
               <Box sx={{display: 'flex', flexDirection: 'column', gap: 2, textAlign: 'justify'}}>
                 <Typography variant='h5'>Contact</Typography>
-                <Box><Email/><Link to={'#'}>info@gmail.com</Link></Box>
-                <Box><PhoneAndroid/><Link to={'#'}>+1 222 212 3819</Link></Box>
-                <Box><LocationOn/><Link to={'#'}> 43 Raymouth Rd. Baltemoer, London 3910</Link></Box>
+                <Box><Email/><Link to={'mailto:okolochidera223@gmail.com'}>okolochidera223@gmail.com</Link></Box>
+                <Box><PhoneAndroid/><Link to={'tel:+2347086661378'}>+2347086661378</Link></Box>
+                <Box><LocationOn/><Link to={'#'}> No 16th new world street ajao estate</Link></Box>
               </Box>
           </Box>
   )
